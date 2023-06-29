@@ -11,13 +11,13 @@
        <span class="fa fa-bars"></span>
        <a id="login"href='login.html'>Login</a>
        <a id="audit"href='audit.html'>Audit</a>
-       <a id="checkmaterials"href='checkmaterials.html'>Check materials</a>
+       <a id="checkmaterials"href='materials.html'>Check materials</a>
      </nav>
     </header>
     <main>
       <h1>Login</h1>
-      <select name="loginType" id="loginType">
-        <option value="select">---Please select an option---</option>
+      <select name="loginType" id="loginType" onchange="changeLogin()">
+        <option value="null">---Please select an option---</option>
         <option value="NHS">NHS</option> 
         <option value="MedTech">MedTech</option> 
       </select>
