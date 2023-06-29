@@ -1,0 +1,15 @@
+#audit {
+  display: none;
+}
+
+#checkmaterials {
+  display: none;
+}
+
+.audit{
+  display: inline-block;
+}
+
+.checkmaterials{
+  display: inline-block;
+}
